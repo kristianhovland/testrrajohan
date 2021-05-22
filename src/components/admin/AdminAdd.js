@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import { TOKEN_PATH } from './../../constants/api';
 
-export class AddHotels extends React.Component {
+export class AdminAdd extends React.Component {
   constructor(props) {
     super(props);
 

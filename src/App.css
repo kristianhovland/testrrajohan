@@ -1,0 +1,220 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(24, 121, 231);
+  font-family: "Open Sans", sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.fa {
+  padding: 10px 25px;
+  color: rgb(24, 121, 231);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.list-group {
+  margin-bottom: 15px;
+}
+
+.list-group-item {
+  margin-right: 15px;
+  max-width: 350px;
+  width: 350px;
+  border: rgb(24, 121, 231) solid 2px;
+}
+
+.headerLinks {
+  color: white;
+  padding-left: 15px;
+  font-size: 14px;
+  float: right;
+  margin-top: 10px;
+}
+
+.headerMail {
+  color: white;
+  padding-right: 255px;
+  font-size: 14px;
+  float: left;
+  margin-top: 10px;
+}
+
+.homeHeader {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+    url(./components/img/bgheader.jpg);
+  height: 100vh;
+  background-position: absolute;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-top: -101px;
+}
+
+.headerText {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.headerSearch {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.headerText h3 {
+  font-size: 0px;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 60px;
+  row-gap: 25px;
+  margin-bottom: 55px;
+}
+
+.headerLogo {
+  display: flex;
+  justify-content: center;
+  padding-top: 285px;
+}
+
+.navbar a {
+  color: rgb(0, 255, 13);
+}
+
+.centerButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 35px;
+}
+
+.CardBtn {
+  width: 101%;
+  border: none;
+  border-radius: 0;
+  margin-top: 15px;
+  background-color: rgb(7, 7, 119) !important;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.detailDisclaimer {
+  margin-top: 200px;
+  font-size: 14px;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.ContactContainer {
+  max-width: 750px;
+  padding: 60px;
+  border-radius: 15px;
+  color: white;
+}
+
+.LoginContainer {
+  max-width: 750px;
+  padding: 160px;
+  border-radius: 15px;
+  color: white;
+}
+
+.NavBtn {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.NavBtn:hover {
+  background-color: white;
+  color: rgb(24, 121, 231);
+}
+
+.btn {
+  background-color: rgb(21, 69, 201);
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.rbt-input-main {
+  width: 250px;
+  height: 45px;
+  border: none;
+  border-radius: 0px;
+}
+
+.loginWrapper {
+  margin: 0 auto;
+}
+
+.accomodation-detail {
+  height: 150px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  font-size: 24px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  opacity: 0.5;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
